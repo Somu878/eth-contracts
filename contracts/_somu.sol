@@ -2,7 +2,7 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 contract SOMU {
-    uint totalSupply;
+    uint public  totalSupply;
     address owner;
     mapping(address=>uint) public  balances ;
     constructor(){
@@ -17,9 +17,10 @@ contract SOMU {
         totalSupply+=amount;
     }
     function mintTo(address to,uint amount) public onlyOwner {
-        require(totalSupply>=amount,"insufficient balance");
+        // require(balances[msg.sender]>=amount,"insufficient balance");
         balances[to]+=amount;
         totalSupply-=amount;
+        // balances[msg.sender]-=amount;
     }
     function transfer(address to,uint amount) public{
         require(balances[msg.sender]>=amount,"insufficient balance"); 

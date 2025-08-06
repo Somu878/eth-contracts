@@ -61,6 +61,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -107,11 +120,11 @@
 	},
 	"sources": {
 		"contracts/_somu.sol": {
-			"keccak256": "0xea0ba7929b78ae64bb885db1b815dbdb7fb4f07aef8113bd0922f78937d3bf40",
+			"keccak256": "0x7d74fd43f88cba7ee79d43a727ab749d3eabc45e6cae26ffbadfed39aa95442e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d5d9eb6aa0969f7c764c7dd01cf0a303c3fa3c32fde56365648a60469cfe9d69",
-				"dweb:/ipfs/QmZAzetBo8j78QfP3mjn94JJ3c57izLJXBpjXT1xEfZLrp"
+				"bzz-raw://ab1af8310cfd97c2e8c00fb39f2907b32d2dbfdc055b967bb2ae2f44847ce59b",
+				"dweb:/ipfs/QmQbi56su4sTveA7M3PgeaKkLTA3UVd4Ra5DsiW3jxoGjb"
 			]
 		}
 	},
